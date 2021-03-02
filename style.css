@@ -1,0 +1,420 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu
+{
+    background-color: #0C2B4B;
+}
+.logosection
+{
+    padding: 20px 25px;
+    background-color: #F3BD00;
+    clip-path: polygon(0% 0%,100% 0%,93% 100%,0% 100%);
+}
+.logo
+{
+    padding: 10px 0px;
+    text-align: right;
+}
+.menusection ul
+{
+    list-style: none;
+}
+.menusection ul li
+{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 5px 10px;
+    
+}
+.menusection ul li a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.menusection ul li a:hover
+{
+    border-bottom: 2px solid #F3BD00;
+    transition: .2s;
+}
+
+.iconmenusection a
+{
+    text-decoration: none;
+    margin-inline: 10px;
+}
+.fa
+{
+    color: white;
+    margin-top: 35px;
+}
+.fa-search
+{
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+.fab
+{
+    color: white;
+    margin-top: 35px;
+}
+.btn
+{
+    background-color: #F3BD00;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn-lg
+{
+    color: white;
+}
+/* ---------------  */
+
+.section-two
+{
+    background-image: url(images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 850px;
+    color: white;
+}
+.section-two h4
+{
+    margin-top: 340px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.section-two h1
+{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.btn-course
+{
+    background-color: #0C2B4B;
+}
+.btn-course:hover
+{
+    color: white;
+}
+.btn-contact:hover
+{
+    color: white;
+}
+/* ---------------  */
+.servicesection
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textone
+{
+    margin-left: 5px;
+    text-align: justify;
+}
+.textone h6
+{
+    color: #F7CB00;
+}
+.textone h1
+{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.contents
+{
+    background-color: #0C2B4B;
+    color: white;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    
+}
+.contents img
+{
+    margin-bottom: 30px;
+}
+.marginsection
+{
+    margin-top: 100px;
+}
+@media (max-width: 767px){
+    .marginsection:first-child
+    {
+        margin-top: 20px;
+        padding-inline: 30px;
+    }
+    .marginsection:last-child
+    {
+        margin-top: -25px;
+    }
+}
+/* ------------------ */
+
+.video
+{
+    margin-left: -12px;
+    height: auto;
+    margin-bottom: -25px;
+}
+.texttwo
+{
+    box-sizing: border-box;
+    padding: 85px 50px;
+}
+.texttwo h1
+{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.texttwo h6
+{
+    color: #F4BD00;
+}
+/* -------------------  */
+
+.applicationhead
+{
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.applicationhead h6
+{
+    color: #F4BD00;
+}
+.applicationhead h1
+{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.form
+{
+    width: 100%;
+    padding-left: 15px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+.align
+{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 25%;
+}
+/* -------------  */
+
+.pricesection
+{
+    background-image: url(images/pricing-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.pricehead
+{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+.pricehead h6
+{
+    color: #F4BD00;
+}
+.pricehead h1
+{
+    font-style: italic;
+    font-weight: bold;
+}
+.membership
+{
+    text-align: center;
+    background-color: #0c2b4b56;
+    width: 80%;
+    margin: 0 auto;
+    height: 535px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.membership h6
+{
+    padding-top: 50px;
+}
+.membership h1
+{
+    color: #F4BD00;
+}
+.membership h4
+{
+    margin-bottom: 50px;
+}
+.border2
+{
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin-left: 10%;
+}
+.membership p
+{
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.pricebtn
+{
+    background-color: #0C2B4B;
+    width: 80%;
+    margin-bottom: 10px;
+    color: white;
+}
+.pricebtn:hover
+{
+    color: white;
+}
+.membership:hover
+{
+    background-color: #0C2B4B;
+    transition: .5s;
+}
+.membership:hover .pricebtn
+{
+    transition: .3s;
+    background-color: #F4BD00;
+}
+
+/* -------------  */
+.clientsection
+{
+    margin-bottom: 80px;
+}
+.section-7
+{
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.clienttitle h6
+{
+    color: #F4BD00;
+}
+.clienttitle h1
+{
+    font-style: italic;
+    font-weight: bold;
+}
+.float-right
+{
+    margin-top: 20px;
+    float: right;
+    margin-right: 58px;
+}
+.clientarea
+{
+    
+    margin-bottom: 30px;
+    margin-inline: 15px;
+    padding: 40px;
+    width: 45%;
+}
+.clientdetail
+{
+    margin-left: 5px;
+    float: right;
+    width: 40%;
+}
+.clientsicon
+{
+    color: black;
+    padding-inline: 2.5%;
+    margin-top: 0;
+}
+/* ---------------  */
+@media (max-width: 767px) {
+    .float-right
+    {
+        float: none;
+        margin: 0;
+    }
+}
+@media (max-width: 991px){
+    .clientarea
+    {
+        width: 100%;
+    }
+}
+/* -----------------  */
+
+.footer
+{
+    height:auto;
+    background-color: #0C2B4B;
+    padding-inline: 80px;
+    padding-top: 50px;
+}
+.footer-content p
+{
+    color: #C4C4BC;
+}
+.footer-content h3
+{
+    text-align: justify;
+    margin-bottom: 20px;
+    color:  #C4C4BC;
+}
+.footer-content ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-content ul li
+{
+    line-height: 30px;
+}
+.footer-content ul li a
+{
+    text-decoration: none;
+    color: #C4C4BC;
+}
+.footer-logo
+{
+    margin-bottom: 2rem;
+}
+.footer-text
+{
+    margin-bottom: 50px;
+}
+hr
+{
+    height: 1px;
+    background-color: #C4C4BC;
+}
+.copyright p
+{
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 678px) and (max-width: 992px){
+    .footer-content
+    {
+        margin-bottom: 20px;
+    }
+}
+/* ------------------  */
